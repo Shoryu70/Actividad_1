@@ -1,0 +1,64 @@
+html{
+    background-color: #003099;
+}
+
+.bunker{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    margin: 5px;
+    width: 100%;
+
+}
+
+.Videojuegos{
+    width: 50%;
+}
+
+/* .row .col-50:nth-child(1){
+    background-color: chocolate;
+}
+.row .col-50:nth-child(2){
+    background-color:cornflowerblue;
+} */
+
+.container .Videojuegosfigure{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.container .Videojuegos figure img{
+    width: auto;
+    height: 500px;
+    justify-content: center;
+    max-width: 100%;
+    
+}
+
+
+.container .Videojuegos:nth-child(1) div{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.container .Videojuegos:nth-child(2) div{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.container .Videojuegos div a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 255, 0);
+    font-size: 1.9rem;
+}
+
+.container .Videojuegos div p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
